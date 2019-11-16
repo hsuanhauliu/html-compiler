@@ -3,7 +3,7 @@
 A simple and lightweight html compiling program. The purpose of this program is to combine several html files into one, allowing the users to manage their content better.
 
 ## How It Works
-The program recursively looks for tags that has a specific class (m_component) and replace the current tag with the html file specified in the id.
+The program recursively looks for **div** tags that has a specific class (m_component) and replace the current tag with the html file specified in the id.
 For example,
 
 ```
