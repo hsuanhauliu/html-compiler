@@ -74,10 +74,10 @@ pip install .
 To use the program, simply type
 
 ```
-html-compiler <root-filename> [-o output]
+html_compiler <root-filename> [-o output]
 ```
 
 Example:
 ```
-html-compiler index.html
+html_compiler index.html
 ```
