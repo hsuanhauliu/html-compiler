@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='html_compiler',
+    name='html-compiler',
     version='0.1',
     author='Hsuan-Hau Liu',
     description='A simple and lightweight html compiler.',

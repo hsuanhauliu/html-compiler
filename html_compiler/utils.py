@@ -1,7 +1,11 @@
+"""
+    Utility functions.
+"""
+
 from bs4 import BeautifulSoup
 
 
-def output(soup, filename="output.html", prettify=False):
+def output(soup, filename, prettify=False):
     """ Output the html """
     with open(filename, "w") as wfile:
         if prettify:

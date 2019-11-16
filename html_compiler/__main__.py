@@ -13,11 +13,13 @@ def main():
     # Parse args
     parser = ArgumentParser(description='Input root filename.')
     parser.add_argument('filename', type=str,
-                        help='Root file')
+                        help='Root filename')
+    parser.add_argument('-o', '--output', type=str, default='output.html',
+                        help='Output filename')
     args = parser.parse_args()
 
     soup = hc.compile(args.filename)
-    hc.output(soup)
+    hc.output(soup, args.output)
 
 
 if __name__ == "__main__":
